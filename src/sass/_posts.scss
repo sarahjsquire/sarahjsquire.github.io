@@ -1,0 +1,21 @@
+/* _posts.scss */
+
+.posts {
+  p {
+    margin: $space-md 0;
+  }
+  li {
+    list-style: circle;
+    margin-left: $space-md;
+  }
+}
+
+.post {
+  padding-bottom: $space-md;
+  border-bottom: $line;
+  margin-bottom: $space-lg;
+
+  &:last-of-type {
+    border-bottom: none;
+  }
+}

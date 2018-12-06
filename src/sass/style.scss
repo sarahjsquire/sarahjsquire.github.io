@@ -1,0 +1,117 @@
+@import 'reset';
+@import 'variables';
+
+/* END RESET */
+
+/* PAGE STRUCTURE */
+
+html {
+	background: $color-background;
+  color: $color-text;
+  font-family: $fontFamily-serif;
+  letter-spacing: $letterSpacing;
+  font-weight: 400;
+  font-style: normal;
+  font-size: $fontSize-text;
+  line-height: $lineHeight-text;
+}
+
+body {
+  line-height: $lineHeight-text;
+}
+
+.container {
+  max-width: $page-width;
+  padding: $page-margin;
+  margin: 0 auto;
+}
+
+header {
+  padding-top: $space-sm;
+  padding-bottom: $space-md;
+  border-bottom: $line;
+  margin-bottom: $space-lg;
+
+  p {
+    margin-top: $space-sm;
+  }
+
+  ul {
+    font-size: $fontSize-sm;
+    margin-top: $space-md;
+    font-family: $fontFamily-sansserif;
+    text-transform: uppercase;
+  }
+  li {
+    display: inline;
+    margin-right: 10px;
+    &:after {
+      content: "•";
+      margin-left: 10px;
+    }
+    &:last-of-type:after {
+      content: none;
+      margin-left: 0;
+    }
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+footer {
+  margin-top: $space-xlg;
+  border-top: $line;
+  padding-top: $space-md;
+  font-size: $fontSize-sm;
+}
+
+/* TEXT */
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+a, a:active, a:visited, a:hover {
+  color: $color-link;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: $fontSize-h1;
+  color: $color-bright;
+}
+
+h2 {
+  font-size: $fontSize-h2;
+  color: $color-bright;
+}
+
+h3 {
+  font-size: $fontSize-h3;
+}
+
+h4 {
+  font-size: $fontSize-h4;
+}
+
+header p, .content p {
+  font-family: $fontFamily-sansserif;
+  font-size: $fontSize-sm;
+  margin-top: $space-xsm;
+  line-height: 1.3;
+}
+
+small {
+  font-family: $fontFamily-sansserif;
+  font-size: $fontSize-sm;
+  color: $color-text;
+}
+
+@import 'items';
+@import 'posts';

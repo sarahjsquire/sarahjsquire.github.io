@@ -1,0 +1,217 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* _variables.scss */
+/* END RESET */
+/* PAGE STRUCTURE */
+html {
+  background: #181E24;
+  color: #939DA7;
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  letter-spacing: 0.01rem;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.58; }
+
+body {
+  line-height: 1.58; }
+
+.container {
+  max-width: 700px;
+  padding: 10px;
+  margin: 0 auto; }
+
+header {
+  padding-top: 0.5rem;
+  padding-bottom: 1.2rem;
+  border-bottom: 1px solid #1F2831;
+  margin-bottom: 2.4rem; }
+  header p {
+    margin-top: 0.5rem; }
+  header ul {
+    font-size: 0.8rem;
+    margin-top: 1.2rem;
+    font-family: Helvetica, sans-serif;
+    text-transform: uppercase; }
+  header li {
+    display: inline;
+    margin-right: 10px; }
+    header li:after {
+      content: "•";
+      margin-left: 10px; }
+    header li:last-of-type:after {
+      content: none;
+      margin-left: 0; }
+
+img {
+  max-width: 100%; }
+
+footer {
+  margin-top: 3rem;
+  border-top: 1px solid #1F2831;
+  padding-top: 1.2rem;
+  font-size: 0.8rem; }
+
+/* TEXT */
+strong {
+  font-weight: bold; }
+
+em {
+  font-style: italic; }
+
+a, a:active, a:visited, a:hover {
+  color: #71B4F5;
+  text-decoration: none; }
+
+h1 {
+  font-size: 2rem;
+  color: #DDD; }
+
+h2 {
+  font-size: 1.5rem;
+  color: #DDD; }
+
+h3 {
+  font-size: 1.3rem; }
+
+h4 {
+  font-size: 1rem; }
+
+header p, .content p {
+  font-family: Helvetica, sans-serif;
+  font-size: 0.8rem;
+  margin-top: 0.3rem;
+  line-height: 1.3; }
+
+small {
+  font-family: Helvetica, sans-serif;
+  font-size: 0.8rem;
+  color: #939DA7; }
+
+/* _items.scss */
+/* ITEMS */
+.content {
+  border-left: 1px solid #939DA7;
+  position: relative; }
+  .content h3, .content h4 {
+    display: inline;
+    margin-right: 7px; }
+
+.tag {
+  font-family: Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  background-color: #1F2831;
+  padding: 2px 3px 0px;
+  border-radius: 2px;
+  display: inline-block;
+  color: #939DA7;
+  vertical-align: middle; }
+
+.item {
+  padding: 0 0 1.2rem 3rem; }
+  .item:before {
+    content: "•";
+    display: inline-block;
+    position: absolute;
+    left: -6px;
+    line-height: 0;
+    position: absolute;
+    font-size: 1.7rem;
+    color: #939DA7; }
+  .item > * {
+    position: relative;
+    top: -.7rem; }
+  .item.event > * {
+    position: relative;
+    top: -.9rem; }
+
+.item.event {
+  padding-bottom: 0;
+  border-bottom: 1px solid #1F2831;
+  margin-bottom: 3rem; }
+  .item.event .tag {
+    color: #F18C40; }
+  .item.event:before {
+    color: #F18C40; }
+
+.item:last-of-type {
+  height: 0;
+  border-bottom: none; }
+
+.item.images h4 {
+  color: #71B4F5;
+  cursor: pointer; }
+  .item.images h4:after {
+    content: "\21a7";
+    margin-left: 5px;
+    font-weight: bold; }
+
+.item img {
+  margin-top: 0.3rem; }
+
+.container--images {
+  display: none; }
+  .container--images.show--images {
+    display: block; }
+
+/* _posts.scss */
+.posts p {
+  margin: 1.2rem 0; }
+
+.posts li {
+  list-style: circle;
+  margin-left: 1.2rem; }
+
+.post {
+  padding-bottom: 1.2rem;
+  border-bottom: 1px solid #1F2831;
+  margin-bottom: 2.4rem; }
+  .post:last-of-type {
+    border-bottom: none; }

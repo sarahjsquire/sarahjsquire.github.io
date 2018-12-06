@@ -1,0 +1,92 @@
+/* _items.scss */
+
+/* ITEMS */
+
+.content {
+  border-left: 1px solid $color-text-secondary;
+  position: relative;
+
+  h3, h4 {
+    display: inline;
+    margin-right: 7px;
+  }
+}
+
+.tag {
+  font-family: $fontFamily-sansserif;
+  text-transform: uppercase;
+  font-size: $fontSize-xsm;
+  background-color: $color-background-secondary;
+  padding: 2px 3px 0px;
+  border-radius: 2px;
+  display: inline-block;
+  color: $color-text-secondary;
+  vertical-align: middle;
+}
+
+.item {
+  padding: 0 0 $space-md $space-xlg;
+
+  &:before {
+    content: "•";
+    display: inline-block;
+    position: absolute;
+    left: -6px;
+    line-height: 0;
+    position: absolute;
+    font-size: 1.7rem;
+    color: $color-text-secondary;
+  }
+
+  & > * {
+    position: relative;
+    top: -.7rem;
+  }
+  &.event > * {
+    position: relative;
+    top: -.9rem;
+  }
+}
+
+.item.event {
+  padding-bottom: 0;
+  border-bottom: $line;
+  margin-bottom: $space-xlg;
+  
+  .tag {
+    color: $color-highlight;
+  }
+
+  &:before {
+    color: $color-highlight;
+  }
+}
+
+.item:last-of-type {
+  height: 0;
+  border-bottom: none;
+}
+
+.item.images {
+  h4 {
+    color: $color-link;
+    cursor: pointer;
+
+    &:after {
+      content: "\21a7";
+      margin-left: 5px;
+      font-weight: bold;
+    }
+  }
+}
+
+.item img {
+  margin-top: $space-xsm;
+}
+
+.container--images {
+  display: none;
+  &.show--images {
+    display: block;
+  }
+}

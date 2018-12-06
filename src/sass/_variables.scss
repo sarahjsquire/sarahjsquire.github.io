@@ -1,0 +1,48 @@
+/* _variables.scss */
+
+// COLORS
+
+$color-background: #181E24;
+$color-background-secondary: #1F2831;
+$color-text: #939DA7;
+$color-link: #71B4F5;
+$color-text-secondary: #939DA7;
+$color-bright: #DDD;
+$color-background-button: #2C70B1;
+$color-highlight: #F18C40;
+$color-line: $color-background-secondary;
+
+// TEXT
+
+$fontFamily-serif: Georgia,Cambria,"Times New Roman",Times,serif;
+$fontFamily-sansserif: Helvetica,sans-serif;
+$letterSpacing: .01rem;
+$fontSize-text: 16px;
+$lineHeight-text: 1.58;
+
+$fontSize-h1: 2rem;
+$fontSize-h2: 1.5rem;
+$fontSize-h3: 1.3rem;
+$fontSize-h4: 1rem;
+$fontSize-h5: .8rem;
+$fontSize-h6: .6rem;
+
+$fontSize-sm: .8rem;
+$fontSize-xsm: .6rem;
+
+
+// SPACING
+
+$page-margin: 10px;
+$page-width: 700px;
+
+$space-xlg: 3rem;
+$space-lg: 2.4rem;
+$space-md: 1.2rem;
+$space-sm: .5rem;
+$space-xsm: .3rem;
+
+
+// UTILS
+
+$line: 1px solid $color-line;

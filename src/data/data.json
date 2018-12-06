@@ -1,0 +1,242 @@
+{
+	"events": [
+    {
+      "type": "project",
+      "title": "Barrons.com redesign",
+      "link": "//barrons.com",
+      "tag": "Barron's"
+    },
+    {
+      "type": "event",
+      "title": "Senior Product Manager",
+      "tag": "Barron's"
+    },
+    {
+      "type": "project",
+      "title": "Two theaters or 1,000? How to release an Oscar-winning film",
+      "link": "https://www.marketwatch.com/graphics/how-to-release-an-oscar-winning-film/",
+      "note": "Finalist for Data Visualization of the Year",
+      "tag": "editor"
+    },
+    {
+      "type": "project",
+      "title": "What happened to your local Blockbuster?",
+      "link": "https://web.archive.org/web/20171120134644/https://moneyish.com/ish/what-happened-to-your-local-blockbuster/",
+      "tag": "editor"
+    },
+    {
+      "type": "project",
+      "title": "Paying for your college, 30 years ago vs. today",
+      "link": "https://www.marketwatch.com/graphics/college-debt-now-and-then/",
+      "tag": "editor"
+    },
+    {
+      "type": "project",
+      "title": "Amazon and Whole Foods: How 2-Day Shipping Could Become an Hour or Less",
+      "link": "https://www.barrons.com/articles/amazon-and-whole-foods-how-2-day-shipping-could-become-an-hour-or-less-1498682000",
+      "tag": "editor"
+    },
+    {
+      "type": "event",
+      "title": "Executive Editor for Data, Graphics & Visuals",
+      "tag": "Dow Jones Media Group"
+    },
+    {
+      "type": "project",
+      "title": "Are You Good Enough to Be a Tennis Line Judge?",
+      "link": "//graphics.wsj.com/are-you-good-enough-to-be-a-tennis-line-judge/",
+      "note": "A red-clay version of this was published and presented for visitors to play on the grounds of Roland Garros during the French Open for two years.",
+      "tag": "app"
+    },
+    {
+      "type": "project",
+      "title": "A Portrait of Lost Habitats in Africa",
+      "link": "//graphics.wsj.com/a-portrait-of-lost-habitats-in-africa/",
+      "tag": "app"
+    },
+    {
+      "type": "project",
+      "title": "🙋 How I Learned to Love Writing With Emojis",
+      "link": "//graphics.wsj.com/how-i-learned-to-love-writing-with-emojis/",
+      "note": "Easter egg: Type \"crap\" or \"poop\"",
+      "tag": "app"
+    },
+    {
+      "type": "project",
+      "title": "What Is Your ‘Game of Thrones’ Management Style?",
+      "link": "//graphics.wsj.com/game-of-thrones-management-quiz/",
+      "tag": "tool"
+    },
+    {
+      "type": "project",
+      "title": "Squaire.js",
+      "link": "//wsj.github.io/squaire/",
+      "note": "Javascript library to create equal-area square cartograms using d3.js",
+      "tag": "code"
+    },
+    {
+      "type": "project",
+      "title": "The Off Duty 50: Global Holiday Gift Guide",
+      "link": "https://graphics.wsj.com/off-duty-50/2015-holiday-gift-guide/",
+      "tag": "tool"
+    },
+    {
+      "type": "project",
+      "title": "Six Degrees of LeBron James",
+      "link": "//graphics.wsj.com/six-degrees-of-lebron-james/",
+      "tag": "app"
+    },
+    {
+      "type": "project",
+      "title": "The Chipotle Of...",
+      "link": "//graphics.wsj.com/chipotle-of/",
+      "tag": "tool"
+    },
+    {
+      "type": "project",
+      "title": "Play ‘Daily Show’ Bingo",
+      "link": "//graphics.wsj.com/daily-show-bingo/",
+      "tag": "tool"
+    },
+    {
+      "type": "project",
+      "title": "The Business of Broadway",
+      "link": "//graphics.wsj.com/business-of-broadway/?end=2016-11-01&months=12",
+      "tag": "app"
+    },
+    {
+      "type": "project",
+      "title": "The A-to-Z Guide to Cheese—Plus Pungent Pairings",
+      "link": "https://www.wsj.com/articles/the-a-to-z-guide-to-cheeseplus-pungent-pairings-1457536832",
+      "tag": "design"
+    },
+    {
+      "type": "event",
+      "title": "Visual Editor, Features",
+      "tag": "The Wall Street Journal"
+    },
+    {
+      "type": "project",
+      "title": "Are you ready to cut the cord?",
+      "link": "//projects.marketwatch.com/are-you-ready-to-cut-the-cable-cord-interactive-calculator-2013/",
+      "tag": "app"
+    },
+    {
+      "type": "project",
+      "title": "How much your paycheck is worth in another city: Try the MarketWatch cost-of-living calculator",
+      "link": "//blogs.marketwatch.com/capitolreport/2014/05/01/considering-moving-try-out-the-marketwatch-cost-of-living-calculator/",
+      "tag": "app"
+    },
+    {
+      "type": "project",
+      "title": "America is home to more dollar stores than McDonald’s",
+      "link": "https://www.marketwatch.com/story/america-is-home-to-more-dollar-stores-than-mcdonalds-2014-09-05",
+      "tag": "data"
+    },
+    {
+      "type": "project",
+      "title": "Stocktoids",
+      "link": "//projects.marketwatch.com/stocktoids",
+      "tag": "app"
+    },
+    {
+      "type": "project",
+      "title": "GM recalls: The numbers tell a surprising story",
+      "link": "//projects.marketwatch.com/2014/gm-recalls-the-numbers-tell-a-surprising-story/",
+      "tag": "article"
+    },
+    {
+      "type": "project",
+      "title": "Facebook's IPO turns one",
+      "link": "//projects.marketwatch.com/facebook-ipo-anniversary-timeline/#",
+      "tag": "graphic"
+    },
+    {
+      "type": "event",
+      "title": "Graphics Developer",
+      "tag": "MarketWatch"
+    },
+    {
+      "type": "event",
+      "title": "Graduated from the University of Michigan",
+      "note": "B.S. in Visual and Digital Media Studies"
+    },
+    {
+      "type": "project",
+      "title": "Michigan Football: A History of the Nation's Winningest Program",
+      "link": "//book.michigandaily.com/",
+      "tag": "book",
+      "note": "Editor, lead designer, marketing and direct sales"
+    },
+    {
+      "type": "project",
+      "title": "Faking 21: How bouncers catch fake IDs and underage students get past the rope",
+      "link": "//www.michigandaily.com/news/faking-21",
+      "tag": "article",
+      "note": "Won Stanford Lipsey Award for Investigative Journalism"
+    },
+    {
+      "type": "project",
+      "title": "Front and Center with the University of Michigan Drum Major",
+      "link": "https://vimeo.com/25999305",
+      "tag": "video",
+      "note": "Won Stanford Lipsey Award for Multimedia Journalism"
+    },
+    {
+      "type": "project",
+      "title": "Scavenging for Sustenance with Sarah Squire",
+      "link": "scavenging.html",
+      "tag": "blog"
+    },
+    {
+      "type": "project",
+      "title": "How to roll with the Ann Arbor derby girls",
+      "link": "https://vimeo.com/31837953",
+      "tag": "video"
+    },
+    {
+      "type": "project",
+      "title": "Kevin",
+      "link": "https://vimeo.com/55891636",
+      "tag": "animation"
+    },
+    {
+      "type": "project",
+      "title": "The Little Things",
+      "link": "https://soundcloud.com/sarahjsquire/the-little-things",
+      "tag": "audio"
+    },
+    {
+      "type": "images",
+      "title": "The culture of homebrewing",
+      "images": [
+        "2011/images/culture-homebrewing.jpg"
+      ],
+      "tag": "design"
+    },
+    {
+      "type": "images",
+      "title": "Snyder, The Big Victor",
+      "images": [
+        "2011/images/11_03_10_1A_Snyder.jpg"
+      ],
+      "tag": "design"
+    },
+    {
+      "type": "images",
+      "title": "Hello, Gorgeous: Why we're seduced by the Academy Awards",
+      "images": [
+        "2011/images/2_24_11_1B_Oscars.jpg"
+      ],
+      "tag": "design"
+    },
+    {
+      "type": "event",
+      "title": "Joined The Michigan Daily"
+    },
+    {
+      "type": "event",
+      "title": "Born in New York City"
+    }
+  ]
+}

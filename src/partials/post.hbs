@@ -1,0 +1,17 @@
+<div class="post">
+
+  <h2>{{title}}</h2>
+  <p>{{post}}</p>
+  <ul>
+    {{#each list}}
+      <li>{{this}}</li>
+    {{/each}}
+  </ul>
+
+  <p><em>*All measurements are approximate</em></p>
+
+  {{#if tip}}
+  <p><strong>AND A TIP:</strong> {{tip}}</p>
+  {{/if}}
+
+</div>

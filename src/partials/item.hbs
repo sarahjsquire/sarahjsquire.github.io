@@ -1,0 +1,30 @@
+<div class="item {{type}}">
+
+  {{#if_eq type 'event'}}
+    <h3>{{title}}</h3>
+  {{else}}
+    {{#if link}}
+      <a href={{link}}><h4>{{title}}</h4></a>
+    {{else}}
+      <h4>{{title}}</h4>
+    {{/if}}
+  {{/if_eq}}
+
+  {{#if tag}}
+    <div class="tag">{{tag}}</div>
+  {{/if}}
+    
+  {{#if note}}
+    <p>{{note}}</p>
+  {{/if}}
+
+  {{#if images}}
+    <div class="container--images">
+      {{#each images}}
+        <a href="{{this}}" target="_new">
+          <img data-src="{{this}}" />
+        </a>
+      {{/each}}
+    </div>
+  {{/if}}
+</div>
