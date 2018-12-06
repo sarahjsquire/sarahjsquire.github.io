@@ -3,7 +3,7 @@
 // When the page first loads, it parses the URL, if it finds a # then it grabs the string after it and does a switch function to match it to an episode function, default is call nothing.
 
 window.onhashchange = function(){
-	ga('send', 'pageview', {
+	gtag('event', 'view_item', {
 	 'page': location.pathname + location.search  + location.hash
 	});
 };
