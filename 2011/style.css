@@ -169,7 +169,7 @@ input {
 }
 
 a.external {
-	background: url("/images/external.png") center right no-repeat;
+	background: url("images/external.png") center right no-repeat;
 	padding-right:13px;
 }
 
