@@ -1,6 +1,11 @@
 {
 	"events": [
     {
+      "type": "event",
+      "title": "Senior Product Manager",
+      "tag": "TodayTix"
+    },
+    {
       "type": "project",
       "title": "Barrons.com redesign",
       "link": "//barrons.com",
