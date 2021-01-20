@@ -152,7 +152,7 @@ small {
   border-radius: 2px;
   display: inline-block;
   color: #939DA7;
-  vertical-align: middle; }
+  vertical-align: baseline; }
 
 .item {
   padding: 0 0 1.2rem 3rem; }
